@@ -1,0 +1,92 @@
+/**********************************
+STYLE RULES FOR ALL PAGES
+***********************************/
+
+/* all body text is Open Sans, light grey background, blue text */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;  
+  color: blue;
+}
+
+/* no underlining on links */
+a {
+  text-decoration: none;
+}
+
+
+/**********************************
+HEADER
+***********************************/
+
+/* header is a dark blue background with maize text*/
+header {
+  background: #00246b;
+  padding: 10px 20px;
+  color: #ffe86c;
+}
+
+
+
+/**********************************
+NAVIGATION BAR
+***********************************/
+
+/* nav bar background matches header border */
+nav {
+  background: #0099ff;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+
+/* nav link color is dark blue; visited links remain blue */
+nav a, nav a:visited {
+  color: #00246b;
+  font-weight: 800;
+}
+
+
+/* selected or hovered nav link is maize*/
+nav a.selected, nav a:hover {
+  color: #ffe86c;
+}
+
+/*****************************************
+ IMAGES (file size is 200 but want space
+ around the imges to demonstrate flexbox
+ ****************************************/
+ figure img {
+	 width: 150px;
+ }
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  color: black;
+  clear: both;
+}
+
+footer .social-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;  
+  color: #ccc;
+}
+
+
+/**********************************
+FLEXBOX STYLING
+main is the container
+figures are the items
+***********************************/
+
+
+
